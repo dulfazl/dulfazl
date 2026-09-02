@@ -42,4 +42,4 @@ My personal site — hand-built, no framework.
 
 Open to **AI/ML and full-stack internships**.
 
-[Portfolio](https://dulfazl.github.io/portfolio/) · [Instagram](https://instagram.com/dulfazl)
+[LinkedIn](https://www.linkedin.com/in/dulfazal/) · [Portfolio](https://dulfazl.github.io/portfolio/) · [Instagram](https://instagram.com/dulfazl)
