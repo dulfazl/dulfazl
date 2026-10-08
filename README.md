@@ -26,6 +26,20 @@ I'm still learning, and I'm serious about getting very good at this. The project
 <tr>
 <td colspan="2" valign="top">
 
+**[Claim Adjudicator](https://github.com/dulfazl/claim-adjudicator)** &nbsp;·&nbsp; *[live demo](https://claim-adjudicator.onrender.com)*
+
+Decides outpatient health insurance claims from photos of medical bills and prescriptions: approved, partly approved, rejected, sent to a person, or "take a clearer photo". The model only reads the documents. Plain rules make the decision, with a reason for every rupee cut.
+
+- **Pipeline:** a sharpness check on the image, Gemini extraction into a Pydantic schema, then deterministic policy rules
+- **Measured:** 53 generated documents and 40 claims at three image qualities. Scans and ordinary photos were read without a mistake. On rough photos the model guessed instead of refusing, so those are now turned away before it is called
+
+`Python` `FastAPI` `Gemini` `Pydantic` `Next.js` `Docker`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 **[Indian Sign Language Recognition](https://github.com/dulfazl/yolov11-isl)** &nbsp;·&nbsp; *in progress*
 
 Recognizing Indian Sign Language from video. Most sign-language work targets ASL. ISL is largely two-handed and has far less annotated public data, which makes it a harder problem and a more useful one.
