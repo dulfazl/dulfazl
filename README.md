@@ -26,6 +26,20 @@ I'm still learning, and I'm serious about getting very good at this. The project
 <tr>
 <td colspan="2" valign="top">
 
+**[DS Cortex](https://github.com/dulfazl/DS-Cortex)** &nbsp;·&nbsp; *[live demo](https://ds-cortex-web.onrender.com)* &nbsp;·&nbsp; *in progress*
+
+Upload a CSV and describe the problem in a sentence. A team of agents audits the data, picks the task and metric, builds candidate pipelines, debates them, and returns the best model with plots, a decision log and a script that reproduces the score. The language model plans and explains; every number comes from a Python tool.
+
+- **Deliberation:** a critic attacks each candidate pipeline, four agents argue for their pick, and a resolution table written as code decides. A verifier rejects any claim that doesn't cite a real tool run
+- **Measured so far:** a one-seed smoke test caught every injected flaw (leakage, proxy features, label noise, values missing not at random, duplicates, drift), but the label-noise check also fired on clean Titanic, and debate did not beat the plain sequential pipeline. The full 5-seed evaluation hasn't been run yet
+
+`Python` `scikit-learn` `FastAPI` `Gemini` `Next.js` `Docker`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 **[Claim Adjudicator](https://github.com/dulfazl/claim-adjudicator)** &nbsp;·&nbsp; *[live demo](https://claim-adjudicator.onrender.com)*
 
 Decides outpatient health insurance claims from photos of medical bills and prescriptions: approved, partly approved, rejected, sent to a person, or "take a clearer photo". The model only reads the documents. Plain rules make the decision, with a reason for every rupee cut.
