@@ -54,6 +54,20 @@ Decides outpatient health insurance claims from photos of medical bills and pres
 <tr>
 <td colspan="2" valign="top">
 
+**[Log Forensics Engine](https://github.com/dulfazl/log-forensics-engine)** &nbsp;·&nbsp; *[live demo](https://log-forensics-engine.onrender.com)* &nbsp;·&nbsp; *team project*
+
+Reads server, auth and web logs one line at a time in constant memory, parses them with regex, classifies severity with KNN and flags attacks by their distance to a learned baseline of normal traffic. Logs can come from a file, a UDP syslog listener or an SSH tail on another machine, and a live dashboard streams every decision with the reason behind it.
+
+- **Pipeline:** generators end to end, bounded per-IP state, a k-nearest-neighbour detector with a percentile threshold, and a baseline refresh that only accepts clearly normal traffic so a slow attacker can't poison it
+- **Measured:** on labeled synthetic logs (5 seeds), recall went from 0.53 to 0.85 at 0.90 precision once a per-attack-type breakdown showed where attacks were being missed. A slow brute force (one try every 20-60 s) is still only 62% caught. Memory stayed flat from 10K to 1M lines
+
+`Python` `scikit-learn` `FastAPI` `Server-Sent Events` `Chart.js` `paramiko`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 **[Indian Sign Language Recognition](https://github.com/dulfazl/yolov11-isl)** &nbsp;·&nbsp; *in progress*
 
 Recognizing Indian Sign Language from video. Most sign-language work targets ASL. ISL is largely two-handed and has far less annotated public data, which makes it a harder problem and a more useful one.
