@@ -40,7 +40,7 @@ Upload a CSV and describe the problem in a sentence. A team of agents audits the
 <tr>
 <td colspan="2" valign="top">
 
-**[Claim Adjudicator](https://github.com/dulfazl/claim-adjudicator)** &nbsp;·&nbsp; *[live demo](https://claim-adjudicator.onrender.com)*
+**[Claim Adjudicator](https://github.com/dulfazl/claim-adjudicator)** &nbsp;·&nbsp; *[live demo](https://claim-adjudicator.vercel.app)*
 
 Decides outpatient health insurance claims from photos of medical bills and prescriptions: approved, partly approved, rejected, sent to a person, or "take a clearer photo". The model only reads the documents. Plain rules make the decision, with a reason for every rupee cut.
 
