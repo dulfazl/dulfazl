@@ -26,7 +26,7 @@ I'm still learning, and I'm serious about getting very good at this. The project
 <tr>
 <td colspan="2" valign="top">
 
-**[DS Cortex](https://github.com/dulfazl/DS-Cortex)** &nbsp;·&nbsp; *[live demo](https://ds-cortex-web.onrender.com)* &nbsp;·&nbsp; *in progress*
+**[DS Cortex](https://github.com/dulfazl/DS-Cortex)** &nbsp;·&nbsp; *[live demo](https://ds-cortex.vercel.app)* &nbsp;·&nbsp; *in progress*
 
 Upload a CSV and describe the problem in a sentence. A team of agents audits the data, picks the task and metric, builds candidate pipelines, debates them, and returns the best model with plots, a decision log and a script that reproduces the score. The language model plans and explains; every number comes from a Python tool.
 
