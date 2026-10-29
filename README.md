@@ -54,7 +54,7 @@ Decides outpatient health insurance claims from photos of medical bills and pres
 <tr>
 <td colspan="2" valign="top">
 
-**[Log Forensics Engine](https://github.com/dulfazl/log-forensics-engine)** &nbsp;·&nbsp; *[live demo](https://log-forensics-engine.onrender.com)* &nbsp;·&nbsp; *team project*
+**[Log Forensics Engine](https://github.com/dulfazl/log-forensics-engine)** &nbsp;·&nbsp; *[live demo](https://log-forensics-engine.vercel.app)* &nbsp;·&nbsp; *team project*
 
 Reads server, auth and web logs one line at a time in constant memory, parses them with regex, classifies severity with KNN and flags attacks by their distance to a learned baseline of normal traffic. Logs can come from a file, a UDP syslog listener or an SSH tail on another machine, and a live dashboard streams every decision with the reason behind it.
 
